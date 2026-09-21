@@ -48,6 +48,14 @@ function App() {
           </button>
         </form>
 
+        <button
+          type="button"
+          className="hanging-button"
+          onClick={() => console.log("How's it hanging?")}
+        >
+          How&apos;s it hanging?
+        </button>
+
         {todos.length === 0 ? (
           <p className="todo-empty">No tasks yet. Add one above.</p>
         ) : (
